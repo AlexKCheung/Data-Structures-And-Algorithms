@@ -18,7 +18,7 @@ def runningSum(nums: List[int]):
 print(runningSum([1, 2, 3, 4]))
 print(runningSum([1, 1, 1, 1, 1]))
 print(runningSum([3, 1, 2, 10, 1]))
-print("Output should be: ")
+print("\nOutput should be: ")
 print("[1, 3, 6, 10]")
 print("[1, 2, 3, 4, 5]")
 print("[3, 4, 6, 16, 17]")
