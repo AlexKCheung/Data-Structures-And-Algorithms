@@ -16,4 +16,9 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
                 return [i, current]
     '''
     # time complexity of O(n), much more efficient
-    
+    values = {}
+    for i in range(len(nums)): 
+        if nums[i] in values:
+            return [values[nums[i]], i]
+        else: 
+            values[target - nums[i]] = i
